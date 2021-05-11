@@ -8,7 +8,7 @@ This folder contains the source code which we used for our Final Project. This c
 
 ## Usage Instructions
 
-Make_Dataset_Folders.ipynb should be executed in its entirety before running Main.ipynb. The purpose of this notebook is to create the directory structure and image folders needed in the Main.ipynb notebook. This notebook also expects the contents of the following Covid-19 Radiography dataset (https://www.kaggle.com/tawsifurrahman/covid19-radiography-database) to be manually downloaded into the "./root/data/Kaggle Dataset" path.
+Make_Dataset_Folders.ipynb should be executed in its entirety before running Main.ipynb. The purpose of this notebook is to create the directory structure and image folders needed in the Main.ipynb notebook. This notebook also expects the contents of the following Covid-19 Radiography dataset (https://www.kaggle.com/tawsifurrahman/covid19-radiography-database) to be manually downloaded into the "/root/data/Kaggle Dataset" path.
 
 Once Make_Dataset_Folders.ipynb is executed, Main.ipynb should be ready to run. 
 
