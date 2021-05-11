@@ -12,6 +12,18 @@ Make_Dataset_Folders.ipynb should be executed in its entirety before running Mai
 
 Once Make_Dataset_Folders.ipynb is executed, Main.ipynb should be ready to run. 
 
+These notebooks were originally written to work in a google colab environment. However, this code can be slightly changed to work locally by changing the root path in both notebooks and removing the google drive mounting operation in both notebooks. See the following code cells and their code comments for more explanation on running the code locally.
+
+```python
+#Remove this following operation from both notebooks if you are running them locally. This operation only appears one time each in the setup for both notebook files.
+from google.colab import drive
+drive.mount('/content/drive')
+```
+```python
+#change this path to the location of this notebook in your environment
+root = '/content/drive/MyDrive/Colab Notebooks'
+```
+
 ## Toolkits Used
 
 Special thanks go out to the developers of ImbalancedDatasetSampler which is provided by the following github repo https://github.com/ufoym/imbalanced-dataset-sampler. 
