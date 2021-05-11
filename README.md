@@ -1,6 +1,6 @@
 
 ## File Contents
-This folder contains the source code which we used for our Final Project. This code is found in the following to notebook files
+This folder contains the source code which we used for our Final Project. This code is found in the following two notebook files
 - Make_Dataset_Folders.ipynb: For creating the directory structure and image folders needed for the Main.ipynb notebook
 
 - Main.ipynb: For testing and evaluating various AlexNet, ResNet-18, ResNet-50, and DenseNet-121 models on the train, validation, and test folders.
