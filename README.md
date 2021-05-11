@@ -22,7 +22,7 @@ Their sampler is designed to be used with PyTorch dataloaders, and implements a 
 from torchsampler import ImbalancedDatasetSampler
 ```
 
-The following packages are also required for execution of our notebooks
+The following packages are also required for execution of our notebooks:
 
 ```python
 import os
